@@ -209,7 +209,7 @@ var user2 = {
 //Code Here
 
 //Now call the sayEmail method that's on the user object which will alert the users email
-
+sayEmail
 //Code Here
 
 
@@ -223,6 +223,9 @@ var user2 = {
 //Create an empty object called methodCollection.
 
 //Code Here
+var methodCollection = {
+
+}
 
 /*Now add two methods (functions that are properties on objects) to your methodCollection
 object. One called 'alertHello' which alerts 'hello' and another method called logHello
