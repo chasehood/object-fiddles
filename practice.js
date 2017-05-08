@@ -57,12 +57,12 @@ Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. */
 
 //Code here
-// firstPocket = item
+
 var backPack = {}
 var item = 'firstPocket';
 backPack[item]= 'chapstick'
 backPack.color = 'black';
-///////////////////////////////////////////
+
 //After you do the above, alert your entire backPack object.
 
 //Code here
@@ -94,31 +94,45 @@ var alsoMe = {
   height: 'tall',
   gender: 'Dude',
   married: 'Sì',
-  eyecolor: 'Brown',
-  haircolor: 'Brown'
+  eyeColor: 'Brown',
+  hairColor: 'Brown'
 }
 // alert(alsoMe)
-// alert(
 // var text = "alsoMe";
 // var x;
-// for (x in person) {
-//     text += person[x];
+// for (x in alsoMe) {
+//     text += alsoMe[x];
 // })
 
+////////////////////////////////////////////////////////////////////////////////
 
 //NEXT PROBLEM
-
-
 
 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
 //Code Here
+var album = {
+  feedingMe: '4:14',
+  sleepyEyedMadness: '6:45',
+  coinToss: '4:12',
+  blackCat: '3:38',
+  janelle: "3:54"
+}
 
 //Now, loop through your album object alerting every song title individually.
 
 //Code Here
 
+
+
+/////////////////////////////////////////////////////////////////////////////////
+// var text = "album";
+// var x;
+// for (x in album) {
+//     text += album[x];
+// }
+/////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -130,11 +144,21 @@ var alsoMe = {
 //Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate).
 
 //Code Here
-
+let states = {
+AZ : 29873,
+UT : 74628,
+CA : 2929,
+NB : 8,
+MN : 8484
+}
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
 //Code Here
 
+/////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////////
 
 
 
